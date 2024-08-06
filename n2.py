@@ -35,7 +35,7 @@ if negative_image is None:
 # Convert negative to positive
 positive_image = convert_negative_to_positive(negative_image)
 
-# Apply histogram equalization
+# Apply histogram equalization (meka damu)
 equalized_image = histogram_equalization(positive_image)
 
 # Reduce noise
@@ -44,7 +44,7 @@ denoised_image = noise_reduction(equalized_image)
 # Detect edges
 edges = edge_detection(denoised_image)
 
-# Sharpen image
+# Sharpen image (meka damu)
 sharpened_image = sharpen_image(denoised_image)
 
 # Display results
